@@ -5,7 +5,7 @@ st.title('PHARMACY ALLERGY ALERT DASHBOARD')
 try:
     drugs = pd.read_csv('drugs.csv')
     inventory = pd.read_csv('pharmacy_inventory.csv')
-    active_ingredient= pd.read_cvs('active_ingredient_table.csv')
+    active_ingredient= pd.read_csv('active_ingredient_table.csv')
     
     #to show inventory
     st.subheader('Current Inventory')
