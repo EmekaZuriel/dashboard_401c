@@ -29,7 +29,7 @@ try:
         for ingredient in allergic_to:
             st.write(f'-{ingredient}')
     
-            risky_drugs = drugs[drugs['active_ingredient'] == ingredient]
+            risky_drugs = drugs[drugs['active_ingredient_table'] == ingredient]
             if not risky_drugs.empty:
                 st.info('Avoid these drugs; consider alternatives:')
                 for index, row in risky_drugs.iterrows():
