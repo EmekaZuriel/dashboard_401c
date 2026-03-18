@@ -1,6 +1,3 @@
 streamlit
 pandas
 numpy
-pharmacy_inventory.csv
-drugs_table.csv
-active_ingredient_table.csv
