@@ -14,7 +14,7 @@ try:
     #pharmacist allergy query
     st.subheader('Allergy Interview with patient')
     
-    ingredients = drugs['active_ingredient'].unique()
+    ingredients = drugs['active_ingredient_table'].unique()
     
     st.write('Check patient allergies:')
     
